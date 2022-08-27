@@ -27,6 +27,15 @@ const sidebars = {
       ],
     },
   ],
+  webpackSidebar: [
+    {
+      type: 'category',
+      label: 'Webpack',
+      items: [
+        'webpack/manually-webpack-configure'
+      ],
+    },
+  ],
 };
 
 module.exports = sidebars;
